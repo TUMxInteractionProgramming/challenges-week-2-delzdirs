@@ -1,0 +1,100 @@
+/* Global styles*/
+* {
+    /* #2 #font #faces */
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+ /*styles for channel area*/
+.message {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+    width: 80%;
+    margin-bottom: 8px;
+    color: black;
+    margin-left: 2.5%;
+}
+.message-own {
+    margin-left: 17.5%;
+}
+.emphatisised {
+    font-size: larger;
+    font-style: normal;
+}
+.message-button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+.message-text {
+    background-color: white;
+    padding: 16px;
+}
+.channel-list li{
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 16px;
+}
+.channel-list .selected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+.channel-list img {
+    vertical-align: middle;
+}
+
+.app-bar {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+    
+}
+.even{
+    background-color: #F5F5F5;
+}
+#tab-bar img{
+    margin-bottom: 4px;
+}
+#tab-bar button {
+    text-transform: uppercase;
+    background-color: white;
+    border-style: none;
+    font-size: 13px;
+    height: 72px;
+    width: 33%;
+    margin: auto;
+    padding: 16px;
+}
+#tab-bar .selected {
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.white {
+    background-color: white;
+}
+.center {
+    text-align: center;
+}
+.channel-list {
+    list-style-type: none;
+    background-color: white;
+}
+.message h3 a {
+    color: black;
+}
+br {
+    background-color: white;
+}
